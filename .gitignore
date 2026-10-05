@@ -1,0 +1,64 @@
+# ============================================
+# Virtual environments
+# ============================================
+.venv/
+venv/
+env/
+
+# ============================================
+# Kestrel private assessment data
+# ============================================
+data/*
+!data/.gitkeep
+
+# ============================================
+# Generated analysis containing client data
+# ============================================
+outputs/*
+!outputs/.gitkeep
+
+# ============================================
+# Final submission predictions
+# Contains real assessment request IDs
+# ============================================
+predictions.csv
+
+# ============================================
+# Trained model artifacts derived from client data
+# ============================================
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ============================================
+# Environment variables / secrets
+# ============================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ============================================
+# IDE / OS
+# ============================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Logs / temporary files
+# ============================================
+*.log
+*.tmp
+temp/
+tmp/
